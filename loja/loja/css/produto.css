@@ -1,0 +1,37 @@
+section{
+    width:70%;
+    margin:0 auto;
+    font-family: arial;
+}
+
+div{
+    width: 15%;
+    float: left;
+    padding: 1%;
+    background-color: #20b2aa;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.2em;
+    /* A partir daqui o slide corta o código (produto.css termina na
+       linha 23 na apresentação "Continuação Loja"). Completei o
+       restante para reproduzir a faixa cinza sobre a foto que aparece
+       na tela "telas_do_projeto", slide 9. */
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    padding: 8px 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}

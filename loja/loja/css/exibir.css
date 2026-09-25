@@ -1,0 +1,47 @@
+/*
+  Este arquivo não aparece em nenhum slide das apresentações enviadas
+  (a apresentação "Continuação Loja" para antes de mostrar o CSS de
+  exibir_produto.php). Foi recriado do zero, procurando reproduzir o
+  visual visto em "telas_do_projeto.pptx" (slides 10 e 11): fundo
+  bege, título cinza, preço em destaque e miniaturas das fotos em
+  caixas claras lado a lado.
+*/
+
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    background-color: #f5e6c8;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #666;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+.caixa_img{
+    width: 150px;
+    height: 200px;
+    background-color: #d6c9a8;
+    float: left;
+    margin: 0 15px 15px 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.caixa_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
